@@ -1,0 +1,1 @@
+rootProject.name = "com.taghavi.ktor-api-sample"
