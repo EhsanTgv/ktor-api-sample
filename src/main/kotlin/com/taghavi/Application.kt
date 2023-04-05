@@ -1,5 +1,6 @@
 package com.taghavi
 
+import com.taghavi.dogs.registerDogsRoute
 import io.ktor.server.application.*
 import com.taghavi.plugins.*
 
@@ -11,4 +12,5 @@ fun Application.module() {
     configureMonitoring()
     configureSerialization()
     configureRouting()
+    registerDogsRoute()
 }
